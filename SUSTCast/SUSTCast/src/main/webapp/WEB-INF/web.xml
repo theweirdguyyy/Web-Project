@@ -1,0 +1,17 @@
+<web-app>  
+	<servlet>
+		<servlet-name>course</servlet-name>
+		<servlet-class>cse.web.SUSTCast</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>gcourse</servlet-name>
+		<servlet-class>cse.web.getcourse</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>course</servlet-name>
+		<url-pattern>/course</url-pattern>
+	</servlet-mapping> 
+    <welcome-file-list>  
+    <welcome-file>index.jsp</welcome-file> 
+    </welcome-file-list>  
+</web-app>  
